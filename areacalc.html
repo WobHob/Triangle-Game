@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title> Fun with triangles</title>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="navigation--elements">
+            <li class="list--inline">
+                <a class="link" href='/index.html'>TRIANGLE CHECK</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/hypcalc.html'>HYPOTENUSE CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/areacalc.html'>AREA CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/quiz.html'>QUIZ</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="heading">Area Calculator</h1>
+        <p class="description">Enter Base and Height of the triangle to know the Area</p>
+        <label class="input-label" for="base" >Length of base:</label>
+        <input type="number" min="0" id="base" class="base-input input">
+        <label class="input-label" for="height" >Length of height:</label>
+        <input type="number" min="0" id="Height" class="height-input input">
+        <button class="btn-check">Calculate</button>
+        <div class="result"></div>
+    </div>
+    <hr>
+    <script src="/calc.js"></script>
+</body>
+</html>

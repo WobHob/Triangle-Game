@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fun with Triangles</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="navigation--elements">
+            <li class="list--inline">
+                <a class="link" href='/index.html'>TRIANGLE CHECK</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/hypcalc.html'>HYPOTENUSE CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/areacalc.html'>AREA CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/quiz.html'>QUIZ</a>
+            </li>
+        </ul>
+    </nav>
+
+  <div class="container">
+    <h1 class="heading">QUIZ ON TRIANGLES</h1>
+    <form class="quiz-form">
+      
+      <div class="question-container">
+        <p class="question">
+          A triangle with one angle greater than 90 degrees.</p>
+        <label><input type="radio" name="question1" value="A">equilateral triangle</label>
+        <label><input type="radio" name="question1" value="B">obtuse triangle</label>
+        <label><input type="radio" name="question1" value="C">acute triangle</label>
+      </div>
+      
+      <div class="question-container">
+        <p class="question">
+          A triangle with all three angles less than 90 degrees.</p>
+        <label><input type="radio" name="question2" value="A">equilateral triangle</label>
+        <label><input type="radio" name="question2" value="B">obtuse triangle</label>
+        <label><input type="radio" name="question2" value="C">acute triangle</label>
+      </div>
+     
+      <div class="question-container">
+        <p class="question">A triangle having at least two equal sides.</p>
+        <label><input type="radio" name="question3" value="A">acute triangle</label>
+        <label><input type="radio" name="question3" value="B">isosceles triangle</label>
+        <label><input type="radio" name="question3" value="C">equilateral triangle</label>
+      </div>
+     
+      <div class="question-container">
+        <p class="question">A triangle with one angle equal to 90 degrees.</p>
+        <label><input type="radio" name="question4" value="A">right triangle</label>
+        <label><input type="radio" name="question4" value="B">equilateral triangle</label>
+        <label><input type="radio" name="question4" value="C">acute triangle</label>
+      </div>
+     
+      <div class="question-container">
+        <p class="question">
+          The sum of the measures of all three sides of a triangle.</p>
+        <label><input type="radio" name="question5" value="A">area</label>
+        <label><input type="radio" name="question5" value="B">perimeter</label>
+        <label><input type="radio" name="question5" value="C">diameter</label>
+      </div>
+   
+    </form>
+    <button class="btn-check">Submit</button>
+    <div class="result"></div>
+  </div>
+  <script src="/quiz.js"></script>
+</body>
+
+</html>

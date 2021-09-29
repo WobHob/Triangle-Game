@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title> Fun with triangles</title>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="navigation--elements">
+            <li class="list--inline">
+                <a class="link" href='/index.html'>TRIANGLE CHECK</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/hypcalc.html'>HYPOTENUSE CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/areacalc.html'>AREA CALCULATOR</a>
+            </li>
+            <li class="list--inline">
+                <a class="link" href='/quiz.html'>QUIZ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading">Hypotenuse Calculator</h1>
+        <p class="description">Enter length of sides of the right angle triangle to get length of Hypotenuse</p>
+        <label for="side1" class="input-label">Length of Side 1:</label>
+        <input type="number" min="1" id="side1" class="input-side input">
+        <label for="side2" class="input-label">Length of Side 2:</label>
+        <input type="number" min="1" id="side2" class="input-side input">
+        <button class="btn-check">Calculate</button>
+        <div class="result"></div>
+    </div>
+    <hr>
+    <script src="/calc.js"></script>
+</body>
+</html>
